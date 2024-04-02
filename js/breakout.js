@@ -101,7 +101,3 @@ show.addEventListener('click', () => {
 close.addEventListener('click', () => {
     rules.classList.toggle('show')
 })
-
-function increaseScore() {
-    score++
-}
