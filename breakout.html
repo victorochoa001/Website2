@@ -9,13 +9,18 @@
 <body>
     <h1>Breakout</h1>
     <button id="rules-btn" class="btn rules-btn">Show Rules</button>
-    <div id="rules" class="rules show">
-        <h2>How to play:</h2>
-        <p>Use your right and left keys to move the paddle to bounce the ball up and break blocks.</p>
+    <div id="rules" class="rules">
+        <h2>How To Play:</h2>
+        <p>Use your right and left arrow keys or D and A to move the paddle to bounce the ball up and break the blocks.</p>
         <p>If you miss the ball, your score and the blocks will reset.</p>
         <button id="close-btn" class="btn">Close</button>
     </div>
-    <canvasid="canvas" width="800" height="600"></canvas>
+
+    <button id="start-btn" class="btn start">Start Game</button>
+    <button id="restart-btn" class="btn start">Restart</button>
+
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+    <script src="js/breakout.js"></script>
 </body>
-<script src="js/breakout.js"></script>
-</html>l
+</html>
