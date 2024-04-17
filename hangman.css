@@ -1,5 +1,7 @@
-
-
+body {
+    background-color: #34495e;
+    color: #ffffff;
+}
 
 .figure-container {
     fill: transparent;
@@ -8,4 +10,6 @@
     stroke-linecap: round;
 }
 
-.figure-part
+.figure-part {
+    display: none;
+}
