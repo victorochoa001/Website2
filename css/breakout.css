@@ -64,5 +64,8 @@ canvas {
     border-radius: 5px;
 }
 
-<button id="start-btn" class="btn start">Start Game</button>
-<button id="restart-btn" class="btn start">Restart</button>
+restart-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
